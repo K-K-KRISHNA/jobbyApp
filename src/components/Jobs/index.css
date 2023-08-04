@@ -1,0 +1,288 @@
+.jobs-holder {
+  display: flex;
+  flex-direction: row;
+  min-height: 200vh;
+  background-color: #000000;
+  padding: 1vw;
+  color: white;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 50px;
+}
+.dehigliter {
+  text-decoration: none;
+  color: white;
+}
+.profile-filter-group {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  .profile-filter-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 10px;
+  }
+  .jobs-holder {
+    display: flex;
+    flex-direction: column;
+    min-height: 200vh;
+    background-color: #000000;
+    padding: 1vw;
+    color: white;
+    padding-top: 50px;
+  }
+
+  .job-details-group {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+}
+.job-details-group {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  padding-left: 40px;
+}
+.profile-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 310px;
+}
+.loader-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.retry-btn {
+  background-color: blueviolet;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  color: white;
+}
+.profile-icon {
+  width: 75px;
+  height: 75px;
+}
+.profile-name {
+  color: blueviolet;
+}
+.profile-bio {
+  color: gray;
+}
+@media screen and (min-width: 768px) {
+  .search-bar {
+    width: 40%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    background-color: black;
+    height: 35px;
+    border-width: 1px;
+    outline: none;
+    color: white;
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .search-bar {
+    width: 90%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    background-color: black;
+    height: 35px;
+    border-width: 1px;
+    outline: none;
+    color: white;
+    padding-left: 10px;
+  }
+  .search-bar {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    background-color: black;
+    height: 35px;
+    border-width: 1px;
+    outline: none;
+    color: white;
+    padding-left: 10px;
+  }
+  .job-item-card-container {
+    display: flex;
+    background-color: #272727;
+    border-style: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 85vw;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .location-icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+.magnifier {
+  color: white;
+  height: 25px;
+  width: 20px;
+}
+.search-button {
+  padding: 5px;
+  margin-left: 0px;
+  background-color: #272727;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-color: gray;
+}
+.search-flexbox {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.no-jobs-pic {
+  margin: 10px;
+  width: 500px;
+  height: 400px;
+}
+.no-jobs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.jobs-failure-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.gray {
+  color: gray;
+}
+@media screen and (min-width: 768px) {
+  .job-item-card-container {
+    display: flex;
+    background-color: #272727;
+    border-style: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+  }
+}
+.title-rating-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+.inner-company-logo {
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+}
+.star {
+  color: yellow;
+}
+.company-details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.flex-for-rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 0px;
+}
+.title-heading {
+  padding: 0px;
+  margin: 0px;
+}
+@media screen and (max-width: 768px) {
+  .title-heading {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+  }
+}
+.rating-value {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 3px;
+}
+.company-logo {
+  margin-right: 10px;
+}
+.location-package-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  border-style: solid;
+  border-color: gray;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.location-icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.location-flex {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  align-items: center;
+}
+.package {
+  font-weight: bold;
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .package {
+    font-size: 15px;
+    align-self: center;
+  }
+  .description-heading {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .description-heading {
+    font-size: 20px;
+  }
+}

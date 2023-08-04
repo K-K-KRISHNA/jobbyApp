@@ -1,0 +1,74 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  border-width: 0px;
+  background-color: #272727;
+  padding: 20px;
+  width: 400px;
+}
+@media screen and (max-width: 768px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: #272727;
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+  }
+}
+.icon-size {
+  width: 275px;
+}
+.username-label {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.holder {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.logo-holder {
+  align-self: center;
+}
+.type-box {
+  background-color: #272727;
+  border-color: #7e858e;
+  color: #7e858e;
+  border-style: solid;
+  border-radius: 5px;
+  padding-left: 20px;
+  height: 30px;
+  border-width: 1px;
+}
+.login-btn {
+  background-color: #6366f1;
+  border-width: 0px;
+  border-style: none;
+  border-radius: 10px;
+  color: white;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+.username-holder {
+  width: 100%;
+}
+.alert-msg {
+  color: red;
+  align-self: flex-start;
+}

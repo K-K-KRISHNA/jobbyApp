@@ -1,0 +1,93 @@
+.job-item-details-container {
+  background-color: black;
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 20px;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .similar-job-item-card-container {
+    display: flex;
+    background-color: #272727;
+    border-style: none;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 35%;
+    padding: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .similar-job-item-card-container {
+    display: flex;
+    background-color: #272727;
+    border-style: none;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+  }
+}
+.white {
+  color: white;
+}
+.similar-job-ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.visit-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.visit-button {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  justify-content: space-evenly;
+}
+.null-margin {
+  margin: 0px;
+}
+.skill-container {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: wheat;
+  flex-wrap: wrap;
+}
+.skill-pic {
+  width: 100px;
+  height: 100px;
+}
+.each-skill-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 200px;
+  margin-right: 90px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 150px;
+}
+.similar-description {
+  margin-top: 30px;
+}
+.life-at-company {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.lifeatpic {
+  height: 400px;
+  width: 550px;
+}
